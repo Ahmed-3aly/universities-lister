@@ -1,0 +1,27 @@
+
+.Details
+{
+    width: 100%;
+    height: 100%;
+}
+
+.Details > table
+{
+    border: 1px solid gray;
+    border-radius: 3px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.Details > table tr,
+.Details > table td
+{
+    margin: 0;
+    padding: 0;
+}
+
+.Details > table td {
+    padding: 10px;
+}
